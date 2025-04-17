@@ -30,3 +30,9 @@ resource "random_pet" "example_four" {
   prefix    = var.pet_prefix
   separator = var.pet_separator
 }
+
+resource "random_pet" "example_five" {
+  length    = var.pet_length
+  prefix    = var.pet_prefix
+  separator = var.pet_separator
+}
